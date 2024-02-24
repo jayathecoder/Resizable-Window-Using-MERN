@@ -21,7 +21,7 @@ app.use(function(req, res, next) {
 
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://jayas9239:jayasharma@cluster0.aozsogp.mongodb.net/myapp');
+mongoose.connect('mongodb+srv://'+process.env.NAME+':'+process.env.PASSWORD+'@cluster0.ta9wa.mongodb.net/myapp');
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 
