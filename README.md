@@ -7,3 +7,6 @@
 =======
 # Resizable-Window-Using-MERN
 >>>>>>> ec2121448e85339bf39622aad492e204b6c1199b
+>>>>>>>
+>>>>>>> Following is the link of this hosted project::
+>>>>>>> https://resizable-window.onrender.com/
